@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  border: 3px solid #70c1b3;
+  font-family: "Courgette", cursive;
+
+  font-family: "Roboto Slab", serif;
+  /* box-sizing: border-box; */
+}
+.page1 {
+  width: 95%;
+  justify-content: center;
+  height: 50vh;
+}
+.cb {
+  color: darkmagenta;
+  background: darkmagenta;
+}
+
+/* navbar */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background: linear-gradient(to right, #84dcc6, #b2dbbf);
+  padding: 0 !important;
+}
+
+.navbar-brand img {
+  height: 60px;
+  padding-left: 25px;
+}
+
+/* padding: Y X */
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: whitesmoke !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+  font-family: "Merriweather", serif;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  border: none !important;
+}
+
+/* sliders */
+
+/* carousel */
+.text-inline li {
+  display: inline list-item;
+  text-decoration-color: darkmagenta;
+}
+
+.slide {
+  margin: 0 auto;
+  width: 90%;
+  height: 50%;
+}
+
+.carousel-caption h5,
+p {
+  font-family: "Merriweather", serif;
+  color: darkmagenta;
+}
+
+.row {
+  display: block !important;
+}
+
+.carousel-indicators {
+  background: black;
+}
