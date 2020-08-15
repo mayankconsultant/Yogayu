@@ -30,10 +30,15 @@ body {
 .navbar {
   /* background: linear-gradient(to right, #84dcc6, #b2dbbf); */
   background: linear-gradient(
+    90deg,
+    rgb(29, 204, 189) 0%,
+    hsla(210, 81%, 22%, 1) 100%
+  );
+  /* background: linear-gradient(
     -90deg,
     hsla(333, 100%, 53%, 1) 0%,
     hsla(33, 94%, 57%, 1) 100%
-  );
+  ); */
   padding: 0 !important;
 }
 
