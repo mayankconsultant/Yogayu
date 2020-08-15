@@ -4,6 +4,7 @@
 }
 body {
   border: 3px solid #70c1b3;
+  background: #caf0f8 !important;
   font-family: "Courgette", cursive;
 
   font-family: "Roboto Slab", serif;
@@ -124,7 +125,7 @@ p {
 }
 
 @media (min-width: 450px) {
-  .packages .d-md-3 {
+  .d-md-3 {
     font-size: 4.5rem !important;
     line-height: 1.2;
     font-weight: 300;
