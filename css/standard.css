@@ -27,10 +27,42 @@ body {
 }
 
 .navbar {
-  background: linear-gradient(to right, #84dcc6, #b2dbbf);
+  /* background: linear-gradient(to right, #84dcc6, #b2dbbf); */
+  background: linear-gradient(
+    -90deg,
+    hsla(333, 100%, 53%, 1) 0%,
+    hsla(33, 94%, 57%, 1) 100%
+  );
   padding: 0 !important;
 }
 
+.slider .container-fluid .row {
+  background: #4361ee;
+}
+
+* .t-gr {
+  color: #2ec4b6;
+}
+
+.lead,
+.cardbody {
+  color: #2ec4b6;
+}
+
+.cardbody li {
+  font-weight: bold;
+}
+
+.why .jumbotron .t-gr {
+  color: #2ec4b6;
+}
+.jumbotron {
+  background: #284b63 !important;
+}
+
+.services .bg-dgr {
+  background: #284b63;
+}
 .navbar-brand img {
   height: 60px;
   padding-left: 25px;
@@ -80,4 +112,21 @@ p {
 
 .carousel-indicators {
   background: black;
+}
+
+.hides {
+  display: none;
+}
+/* Packages Row bug */
+
+.packages .row {
+  display: flex !important;
+}
+
+@media (min-width: 450px) {
+  .packages .d-md-3 {
+    font-size: 4.5rem !important;
+    line-height: 1.2;
+    font-weight: 300;
+  }
 }
