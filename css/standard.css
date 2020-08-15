@@ -103,7 +103,7 @@ body {
 .slide {
   margin: 0 auto;
   width: 90%;
-  height: 50%;
+  /* height: 50%; */
 }
 
 .carousel-caption h5,
@@ -117,7 +117,7 @@ p {
 }
 
 .carousel-indicators {
-  background: black;
+  /* background: black; */
 }
 
 .hides {
