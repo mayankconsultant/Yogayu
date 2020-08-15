@@ -103,6 +103,7 @@ body {
 .slide {
   margin: 0 auto;
   width: 90%;
+  height: auto;
   /* height: 50%; */
 }
 
@@ -110,10 +111,6 @@ body {
 p {
   font-family: "Merriweather", serif;
   color: darkmagenta;
-}
-
-.row {
-  display: block !important;
 }
 
 .carousel-indicators {
@@ -125,7 +122,11 @@ p {
 }
 /* Packages Row bug */
 
-.packages .row {
+.packages .img {
+  display: flex !important;
+}
+
+.gallery .row {
   display: flex !important;
 }
 
