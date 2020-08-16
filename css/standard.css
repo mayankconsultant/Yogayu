@@ -129,3 +129,11 @@ p {
 .gallery .row {
   display: flex !important;
 }
+
+@media (min-width: 450px) {
+  .d-md-3 {
+    font-size: 4.5rem !important;
+    line-height: 1.2;
+    font-weight: 300;
+  }
+}
